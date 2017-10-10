@@ -1,130 +1,18 @@
 doctype html
 html
   head
-    title Matterlist | Homepage
-    include partials/head-shared
+    title wantshop-dev
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    meta(name="viewport" content="width=device-width")
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
 
-  body.home-page
-    header.header
-      include partials/nav
+    link(rel="stylesheet" href="stylesheets/app.css")
 
-      section.content
-        .container
-          .info
-            h1.info__title Matterlist
-            h2.info__subtitle A Wunderlist alternative that makes your todo list less stressful
-            h3.info__description
-              | Matterlist is a todo list app that addresses the key problem of Wunderlist and its existing alternatives: anxiety-inducing,
-              | overwhelming todo lists. The solution: focus on what you can do <span>right now</span>.
-            .try
-              a.try-buttons__play(href='#')
-              a.try-buttons__app(href='#')
-          .slider.swiper-container
-            .swiper-pagination
-            .swiper-button-prev
-            .swiper-button-next
-            .phone.swiper-wrapper
-              .swiper-slide.phone__item.phone__item--samsung
-              .swiper-slide.phone__item.phone__item--iphone
+    script(src="javascripts/vendor.js")
+    script(src="javascripts/app.js")
 
-    section.why
-      .container
-        h2.title Why Matterlist Exists
-        p.subtitle There are thousands of todo apps. Why build another?
-        .why-founder
-          .why-founder__photo
-          p.why-founder__text
-            | Hi. I’m Vladimir Golovin, the founder of Matterlist. I decided to build it because no existing todo app satisfied
-            | my needs: I badly needed clarity, relevance to the present moment, ability to quickly remove distractions, visibility
-            | into the future, ability to break down complex tasks, and recurring tasks that don’t make me walk on eggshells
-            | around them.
-        .why-button
-          a.button(href='the-story-of-matterlist.html')
-            | Read Full Story
-    section.core-idea
-      .container
-        h2.title.core-idea__title The Core Idea
-        p.core-idea__description
-          | Long todo lists overwhelm. Writing everything down is key to productivity, but it makes your todo list scary to look
-          | at. Matterlist is built to solve this dilemma: it gives you tools for hiding irrelevant tasks, so you can quickly
-          | refocus your todo list on what you can do right now.
-    section.features
-      .container
-        h2.title Unique Features
-        p.subtitle What makes Matterlist stand out among other todo apps:
-        .features-list
-          .features-item.features-item--1
-            .features-icon
-            .features-info
-              a.features-info__title(href='/infinite-timeline.html') Infinite Timeline
-              p.features-info__description
-                | Every day on the timeline is accessible - select it and you’ll see tasks for that day. The timeline even shows
-                | recurring tasks for all future days!
-          .features-item.features-item--2
-            .features-icon
-            .features-info
-              a.features-info__title(href='/robust-recurring-tasks.html') Robust Recurring Tasks
-              p.features-info__description
-                | No more walking on eggshells around recurring tasks: you can postpone, edit or delete them without the fear of
-                | messing up their future recurrences.
-          .features-item.features-item--3
-            .features-icon
-            .features-info
-              a.features-info__title(href='/first-class-subtasks.html') First-Class Subtasks
-              p.features-info__description
-                | Subtasks in Matterlist are proper tasks with due dates, notes and priorities, and they can be edited, deleted
-                | or postponed just like regular tasks.
-          .features-item.features-item--4
-            .features-icon
-            .features-info
-              a.features-info__title(href='/automatically-activated-contexts.html')
-                | Automatic Contexts
-                sup BETA
-              p.features-info__description
-                | Automatically show or hide tasks from your list based on an external condition: e.g. are you at a specific location,
-                | is the weather good, etc.
-        .features-button
-          a.button(href='/features.html')
-            | More Features
-    section.alternative
-      .container
-        h2.title Matterlist as a Wunderlist Alternative
-        p.alternative-text
-          | <a href="#">Microsoft announced that they will shut down Wunderlist</a>, so many people are looking for alternatives. Is Matterlist a good Wunderlist alternative for you?
-        .alternative-screens
-          .alternative-screen.alternative-screen--matterlist
-          .alternative-screen.alternative-screen--wunderlist
-        p.alternative-text
-          | The answer is yes, Matterlist is definitely a Wunderlist alternative, but it’s not for everyone. Many of its concepts
-          | will be instantly familiar, but it’s is not an exact 1:1 Wunderlist replacement. Read on to learn if it’s for you.
-        .alternative-button
-          a.button(href='/matterlist-as-a-wunderlist-alternative.html')
-            | Learn More
+    script.
+      require('initialize')
 
-    section.tips
-      .container
-        h2.title 7 Tips for Being Productive with Matterlist
-        p.subtitle Get 80% of productivity for 20% of effort
-        p.tips-text
-          | Capture everything, Always stay in Today, Swipe the clutter away, Don't overuse due dates, Word tasks properly, Break
-          | down complex tasks into subtasks, Use recurring tasks.
-        .tips-button
-          a.button(href='/7-tips-for-being-productive-with-matterlist.html')
-            | Learn More
-
-    section#apps.apps
-      .container
-        h2.title Beautiful Native Apps
-        p.subtitle Try them now: it’s free, no account needed!
-        p.apps-text
-          | We decided to develop Matterlist as a native app for iOS and Android. Native apps take longer to develop (because you
-          | basically write two apps instead of one) but they feel smoother and work faster. Try the app and see it for yourself:
-        .apps-phones
-          .apps-phone.apps-android
-            .apps-phone__image
-            a.apps-phone__link(href='#')
-          .apps-phone.apps-ios
-            .apps-phone__image
-            a.apps-phone__link(href='#')
-
-    include partials/footer
+  body
+    h1 Wantshop dev

@@ -1,58 +1,8 @@
-$main-font-size: 17px;
-$main-line-height: 28px;
-$main-font-color: #323C46;
-$main-brand-color: #0A7BCC;
-
 @import 'tools/_fonts';
-@import 'tools/_swiper';
 @import 'tools/_settings';
 @import 'tools/_normalize';
-@import 'tools/_sweetalert';
 
-@import 'components/_title';
-@import 'components/_subtitle';
-@import 'components/_button';
-@import 'components/_separator';
-
-@import 'pages/homepage/_head';
-@import 'pages/homepage/_footer';
-
-.home-page {
-  @import 'pages/homepage/_why';
-  @import 'pages/homepage/_core-idea';
-  @import 'pages/homepage/_features';
-  @import 'pages/homepage/_alternative';
-  @import 'pages/homepage/_tips';
-  @import 'pages/homepage/_apps';
-}
-
-.features-page {
-  @import 'pages/features/_head';
-  @import 'pages/features/_list';
-  @import 'pages/features/_note';
-}
-
-.feature-page {
-  @import 'pages/feature/_feature';
-}
-
-.pricing-page {
-  @import 'pages/pricing/_pricing';
-  @import 'pages/pricing/_table';
-  @import 'pages/pricing/_free';
-}
-
-.article-page {
-  @import 'pages/article/_article';
-}
-
-.contacts-page {
-  @import 'pages/contacts/_contacts';
-}
-
-.about-page {
-  @import 'pages/about/_about';
-}
+@import 'pages/_homepage';
 
 h1,
 h2,
@@ -71,21 +21,4 @@ a {
   -webkit-margin-after: 0;
   margin-bottom: 0;
   margin-top: 0;
-}
-
-section {
-  padding: 40px 0;
-}
-
-a {
-  color: $main-brand-color;
-
-  display: inline-block;
-  border-bottom: 1px solid transparent;
-  transition: border-color .2s ease;
-  will-change: border-color;
-
-  &:hover {
-    border-color: #0A7BCC;
-  }
 }
