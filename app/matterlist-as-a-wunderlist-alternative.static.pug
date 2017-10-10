@@ -1,0 +1,160 @@
+doctype html
+html
+  head
+    title Matterlist | Matterlist as a Wunderlist Alternative
+    include partials/head-shared
+
+  body.article-page
+    header.article-head
+      include partials/nav
+      .container
+        h1.article-title
+          | Matterlist as a Wunderlist Alternative
+
+    section.article-content
+      .container
+        p
+          | Seth Godin, the famous internet marketer who hates internet marketers, tells people who launch new products to “focus on the tiniest audience possible”. So what is the tiniest but most fitting audience for Matterlist? Who are the people Matterlist would be perfect for?
+        p
+          | Take a look at this list — does it resonate with you?
+          ul
+            li You are a Wunderlist user,
+            li Who hates Wunderlist for clutter, <a href="#">irrelevance and due date pollution</a>,
+            li Who uses it primarily on mobile,
+            li Who has a lot of recurring tasks,
+            li Who uses it solo, without a team.
+        p
+          | If you’re one of the few people who match this description perfectly, go get Matterlist right now and never look back. You might have just found a perfect todo app for you.
+          br
+          br
+          | If you’re not sure you hit all these points, read on — let’s find out if Matterlist can be a good Wunderlist alternative for you.
+        h2 Similarities
+        p
+          | Matterlist’s approach to todo lists is very similar to that of Wunderlist (and, earlier, Astrid). Tasks have completion checkboxes and are grouped into Lists (e.g. Work, Home, Personal etc). You can mark any task with a Star to highlight it in the list. Tapping a task opens a detail view where you can edit the task fields such as priority, notes and dates. Left-swiping a task deletes it.
+          br
+          br
+          | So, with the exception of the calendar-like Weekbar above the task list, the overall look of Matterlist is instantly familiar to a Wunderlist user:
+        .compare
+          .compare-matterlist
+            .compare-title Matterlist:
+            .compare-matterlist__image
+          .compare-wunderlist
+            .compare-title Wunderlist:
+            .compare-wunderlist__image
+        p
+          | However, this is where the similarities end. Matterlist introduces several new ideas and approaches that at first may be unfamiliar to Wunderlist users, but in the end bring significant productivity gains. Read on to find out more.
+        h2 Key Differences
+        ul.article-list
+          li
+            span.article-bold Weekbar and timeline.
+            |  In Wunderlist, there’s simply no way to jump to a calendar date and see what tasks you have for that day, and the only way to see into the future is the Week view. By contrast, Matterlist is built around an infinite timeline where each day is addressable — you can select any date on the Weekbar or jump directly to it via a date picker. To learn more, see 
+            a(href='/features/infinite-timeline/') Infinite Timeline.
+          li
+            span.article-bold Postpone via right-swipe.
+            |  In Wunderlist, there’s no way to postpone a task other than to assign it a due date. By contrast, in Matterlist you can simply right-swipe it, and tell it when to show up again — in an hour, at a specific time, tomorrow or on any specific calendar date. To learn more, see 
+            a(href='/features/instant-fine-grained-postpone/') Instant Fine-Grained Postpone.
+          li
+            span.article-bold Separate Hide-Until dates.
+            |  There’s no dedicated way to postpone tasks in Wunderlist, so you have to implicitly use due dates that. This means that when you postpone a task, you are forced to assign a due date — even to tasks that are dateless by nature. By contrast, Matterlist uses a separate Hide-Until date (which is independent of the Due Date) for postponing to avoid littering the list with unnecessary due dates. To learn more, see 
+            a(href='/features/separate-hide-until-and-due-dates/') Separate Hide-Until and Due Dates.
+          li
+            span.article-bold Contexts instead of Tags.
+            |  Instead of Wunderlist’s tags, Matterlist uses Contexts. They are somewhat similar to tags: a task can have multiple Contexts, and you can filter tasks by Context. However, there are two major differences. First, in contrast with tags which can be created ad-hoc by adding #tag to a task text, Contexts have to be defined in advance. And second, Contexts can have automatic activation conditions (such as location or weather) that affect the visibility of a task in Today, which lets you automatically hide irrelevant tasks from your list. To learn more, see 
+            a(href='/features/automatically-activated-contexts/') Automatically Activated Contexts Beta.
+          li
+            span.article-bold Completely different approach to recurring tasks.
+            |  In Wunderlist, recurring tasks are implemented via a repeat option within a regular task. Matterlist uses a completely different approach — it separates the definitions and recurrences of recurring tasks. Recurring tasks are defined in a separate view and are not tasks per se: for example, they cannot be completed. This approach offers a major benefit: it allows you to treat recurrences of recurring tasks as regular tasks: you can edit, postpone or delete any particular recurrence (in Today or in the future) without affecting any other recurrences. Additionally, all recurrences are visible on the timeline. To learn more, see 
+            a(href='/features/robust-recurring-tasks/') Robust Recurring Tasks.
+          li
+            span.article-bold First-class subtasks with unlimited nesting.
+            |  In Wunderlist, subtasks are just extra fields within a regular task — they cannot have due dates or priorities, and they cannot be postponed. By contrast, in Matterlist subtasks have all the properties of a regular task: Hide-Until and Due dates, priorities, Contexts, and notes. Matterlist supports unlimited subtask nesting: a task can have any number of subtasks, each of which can in turn have its own subtasks. To learn more, see 
+            a(href='/features/first-class-subtasks/') First-Class Subtasks.
+        h2 Additions
+        ul.article-list
+          li
+            span.article-bold Today shows all tasks, with or without dates.
+            |  In Wunderlist, the presence of a due date in a task defines where that task will be visible. Tasks with due dates show up in Today or Week views, while dateless tasks are only visible in Lists they belong to, or in All Tasks. By contrast, in Matterlist both dateful and dateless tasks are shown in Today, and you left-swipe them to days or hours they belong to. This makes it less likely for dateless task to stay unnoticed.
+          li
+            span.article-bold Recently Modified view.
+            |  This view has no equivalent in Wunderlist. It shows all tasks sorted by their last modification date — regardless of their List, visibility status or place in the subtask hierarchy. This view is great for finding lost tasks which you accidentally postponed to 2050 or hidden by assigning an inactive Context.
+          li
+            span.article-bold Customizable Inbox.
+            |  In Wunderlist, the default Inbox list is fixed — it’s always present, it cannot be renamed, and it’s always at the top. By contrast, in Matterlist Inbox is just a regular list that can be renamed or reordered. You can assign any list as default.
+          li
+            span.article-bold Multiple priorities, in addition to stars.
+            |  In Wunderlist, there are no priorities, just the binary stars: starred or not. By contrast, Matterlist offers four colored priority levels in addition to the star.
+          li
+            span.article-bold Multi-line todo items.
+            |  In Wunderlist, todo items are single-line — their text is truncated when it reaches the edge of the screen, which can be really annoying, especially on mobile devices. By contrast, Matterlist uses multi-line todos that don’t force you to truncate your tasks. To learn more, see 
+            a(href='/features/multi-line-todo-items/') Multi-Line Todo Items.
+        h2 Omissions
+        ul.article-list
+          li
+            span.article-bold No shared lists.
+            |  Matterlist doesn’t have shared lists or any other collaboration features, and these features aren’t planned for the near term. Matterlist a personal, single-user app by design. We want to nail personal task management first, and only after that we may consider adding any collaboration features — in a way that doesn’t compromise individual use.
+          li
+            span.article-bold No list folders.
+            |  Wunderlist allows single-level folders for organizing Lists. Matterlist doesn’t currently offer the ability to put Lists into folders.
+          li
+            span.article-bold No file attachments.
+            |  Wunderlist supports file attachment, but Matterlist doesn’t. File attachments make most sense in the context of shared lists and collaboration, but since Matterlist doesn’t have these features (see below), attachments aren’t implemented.
+          li
+            span.article-bold No Week view.
+            |  Matterlist has no Week view, because it doesn’t play well together with other Matterlist features, such as separate Hide-Until and Due dates and first-class subtasks. To compensate for this, Matterlist offers the Weekbar which is always visible on the screen, allows you to jump to any day directly, and shows the number of tasks on a given day via dots.
+          li
+            span.article-bold No separate Reminders.
+            |  In Wunderlist, reminders are distinct from tasks: when you want to be notified about a task, you have to manually add a reminder to it. A single task can have multiple reminders set on different times, and you get notifications at those times. By contrast, in Matterlist tasks and reminders are the same thing: when a task becomes visible in your Today list, you’ll get a notification about it (and about other tasks that also became visible at the same time), and to snooze a reminder, you snooze the task itself.
+        div
+          h2 Not Yet Implemented
+          p
+            | Here’s the list of features that are present in Wunderlist but not yet implemented in Matterlist, sorted by their importance. The critical features are already planned and will be implemented first — they get the highest development priority.
+          h3 Critical:
+          ul
+            li Push Notifications
+            li iOS app
+            li Desktop apps
+          h3 Quality-of-Life:
+          ul
+            li Multiselect for list items
+            li Search
+            li Add tasks via iOS / Android sharing
+            li Themes
+            li Integrations (Zapier, IFTTT etc.)
+          h3 Someday / Maybe:
+          ul
+            li Shared Lists / Collaboration
+            li Smartwatch apps
+            li Mail-to-Matterlist
+            li Android Widgets
+            li Printing
+        h2 Import from Wunderlist
+        p
+          | Import is planned, but it’s not ready yet. We hope to have it ready by the date when Microsoft announces the final Wunderlist shutdown date. Note that due to architectural differences between Wunderlist and Matterlist, not everything will be imported perfectly (e.g. list groups, shared lists, file attachments will not be imported).
+        br
+        div
+          h2 Conclusion
+          p
+            | Wunderlist is shutting down sooner or later. If you’re a Wunderlist user looking for alternatives, should you consider switching to Matterlist?
+          h3 Pros:
+          ul
+            li Better recurring tasks.
+            li Better handling of dateless tasks.
+            li Better subtasks.
+            li Calendar-like timeline.
+            li Quick and convenient postpone.
+            li No due date pollution.
+            li Multi-line todos.
+            li Multiple priority levels.
+            li Automatic contexts.
+          h3 Cons:
+          ul
+            li No iOS app yet (in development).
+            li No push notifications yet (planned).
+            li No desktop apps yet (planned).
+            li No shared lists.
+            li No list folders.
+            li No file attachments.
+            li No week view.
+
+    include partials/alternative
+    include partials/footer

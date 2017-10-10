@@ -1,0 +1,48 @@
+.contacts-page {
+
+}
+
+.contacts-title {
+  margin-top: 60px;
+}
+
+.contacts-title .title {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.contacts-hr {
+  height: 1px;
+  background: #C7C7C7;
+}
+
+.contacts-form {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 350px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.contacts-input,
+.contacts-textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid #C7C7C7;
+  outline: none;
+}
+
+.contacts-textarea {
+  resize: vertical;
+  min-height: 150px;
+  margin-bottom: 30px;
+}
+
+.contacts-submit {
+  margin-bottom: 20px;
+}

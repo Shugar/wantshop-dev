@@ -1,0 +1,59 @@
+.about-page {
+
+}
+
+.about-title {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-size: 42px;
+  color: $main-font-color;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.about-description {
+  margin-bottom: 40px;
+  font-size: $main-font-size;
+  color: $main-font-color;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+
+  span {
+    font-style: italic;
+  }
+}
+
+.about-hr {
+  height: 1px;
+  background: #C7C7C7;
+}
+
+.about-content h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: $main-font-size;
+  color: $main-font-color;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+}
+
+.about-content p {
+  margin-bottom: 26px;
+  font-size: $main-font-size;
+  color: $main-font-color;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+}
+
+.about-content ul {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.about-content li {
+  margin-bottom: 3px;
+  font-size: $main-font-size;
+  color: $main-font-color;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+}

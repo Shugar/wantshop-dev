@@ -1,0 +1,74 @@
+.pricing-table {
+  width: 100%;
+}
+
+.pricing-tr:nth-child(even) {
+  background: #EFEFF4;
+}
+
+.pricing-tr-header,
+.pricing-tr-footer {
+  background: #323C46 !important;
+}
+
+.pricing-tr-header .pricing-td,
+.pricing-tr-footer .pricing-td {
+  color: #FFFFFF;
+}
+
+.pricing-tr-footer .pricing-td-pro,
+.pricing-tr-footer .pricing-td-free {
+  font-size: 21px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  span {
+    font-weight: normal;
+  }
+}
+
+.pricing-td:first-child {
+  width: 60%;
+}
+
+.pricing-td:nth-child(2),
+.pricing-td:nth-child(3) {
+  width: 20%;
+}
+
+.pricing-td {
+  padding: 7px 20px;
+
+  font-size: $main-font-size;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+  color: #323C46;
+}
+
+.pricing-td span {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.pricing-td-free,
+.pricing-td-pro {
+  font-weight: 700;
+}
+
+.pricing-td-pro {
+  color: #FFC857 !important;
+}
+
+.pricing-check {
+  width: 11px;
+  height: 8px;
+  background: url('../images/check-mark.svg') no-repeat center / contain;
+}
+
+@media (max-width: 374px) {
+  .pricing-td {
+    padding: 7px 12px;
+  }
+}

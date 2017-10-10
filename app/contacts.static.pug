@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Matterlist | Contacts
+    include partials/head-shared
+
+  body.contacts-page
+    header.contacts-head
+      include partials/nav
+
+      .container
+        .contacts-title
+          h1.title Contacts
+          h2.subtitle
+            | Just send us a message via the form below.
+    section.contacts-content
+      .container
+        form.contacts-form
+          input.contacts-input.contacts-name(type='text' name="name" placeholder='Name')
+          input.contacts-input.contacts-contact(type='text' name="contact" placeholder='Email')
+          textarea.contacts-textarea.contacts-message(placeholder='Message' name="message")
+          button.button.contacts-submit Submit
+
+    include partials/footer

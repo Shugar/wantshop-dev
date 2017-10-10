@@ -1,0 +1,86 @@
+doctype html
+html
+  head
+    title Matterlist | Features
+    include partials/head-shared
+
+  body.features-page
+    header.features-head
+      include partials/nav
+
+      .container
+        .features-title
+          | Features
+        .features-description
+          | Matterlist is built to deal the with huge, scary, overwhelming todo lists of modern knowledge workers. All features below
+          | are designed to reinforce the core idea of Matterlist: 
+          span
+            | keeping your todo list clean and relevant to the present moment.
+            span
+    section.features-list
+      span
+      .container
+        span
+        article.features-item.features-item--1
+          span
+          .features-item__title
+            span Infinite Timeline
+          .features-item-separator
+            span
+            .features-item__image
+              span
+            .features-item__description
+              | A <a href='/infinite-timeline.html'> calendar-like timeline</a> that shows normal and recurring tasks. See tasks for any day, add tasks directly on days when they belong. You have full forward visibility into the future, so plan as far ahead as you need, without any exceptions for recurring tasks — just treat them as normal tasks.
+        article.features-item.features-item--2
+          span
+          .features-item__title
+            span First-Class Subtasks
+          .features-item-separator
+            span
+            .features-item__image
+              span
+            .features-item__description
+              <a href='/first-class-subtasks.html'>Subtasks have <span class="italic"> all the attributes of normal tasks</span></a> — due dates, priorities etc. Unlimited subtask nesting depth. Create, edit or dismantle subtask hierarchies via drag-and-drop. Break down complex tasks into smaller ones, postpone irrelevant subtasks or collapse the parent task to hide the distracting details.
+        article.features-item.features-item--3
+          .features-item__title
+            | Robust Recurring Tasks
+          .features-item-separator
+            .features-item__image
+            .features-item__description
+              <a href='/robust-recurring-tasks.html'>Matterlist separates definitions and recurrences of recurring tasks.</a> This concentrates all recurring tasks in one place, and allows recurrences to be accessible via the timeline, along with regular tasks. Recurrences are treated just like regular tasks — you can edit, delete or postpone any particular recurrence without messing up others.
+        article.features-item.features-item--4
+          .features-item__title
+            | Automatically-Activated Contexts
+            sup BETA
+          .features-item-separator
+            .features-item__image
+            .features-item__description
+              <a href='/automatically-activated-contexts.html'>Сontexts are like tags with activation conditions.</a> Attaching contexts to tasks lets you automatically show or hide them from your list based on external conditions (e.g. location or weather), or manually (e.g. @LowEnergy). This lets you automatically hide irrelevant tasks to better concentrate on what you can do right now.
+        article.features-item.features-item--5
+          .features-item__title
+            | Instant Fine-Grained Postpone
+          .features-item-separator
+            .features-item__image
+            .features-item__description
+              <a href='/instant-fine-grained-postpone.html'>Snooze any task or recurrence for minutes or hours, not just days.</a> De-clutter your list and focus on the now, on the present moment. Don't worry about treating recurrent tasks differently — postponing works on recurrences just like on regular tasks.
+        article.features-item.features-item--6
+          .features-item__title
+            | Separate Hide-Until and Due Dates
+          .features-item-separator
+            .features-item__image
+            .features-item__description
+              | In Matterlist, <a href='/separate-hide-until-and-due-dates.html'>due dates are reserved for hard deadlines</a> and are not used for postponing tasks — a separate Hide Until date is used for that. This solves the problem of due date pollution: your list is not cluttered with unnecessary due dates, and dateless tasks remain dateless even after you postpone them.
+        article.features-item.features-item--7
+          .features-item__title
+            | Multi-Line Todo Items
+          .features-item-separator
+            .features-item__image
+            .features-item__description
+              | In Matterlist, <a href='/multi-line-todo-items.html'>todo items are multi-line</a>, which lets you write properly-worded tasks. It also allows for better UI design: no more pressure to make room for text by shrinking the font size and UI elements. This makes Matterlist comfortable for people with less-than-perfect eyesight and ‘fat fingers’.
+    section.features-note
+      .container
+        | Note: some features you might expect coming from Wunderlist or a similar app are omitted by design or not yet implemented.
+        | For details, see <a href='/matterlist-as-a-wunderlist-alternative.html'>Matterlist as a Wunderlist Alternative.</a>
+
+    include partials/try
+    include partials/footer

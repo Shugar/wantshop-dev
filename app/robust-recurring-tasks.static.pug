@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title Matterlist | Robust Recurring Tasks
+    include partials/head-shared
+
+  body.feature-page
+    header.feature-head
+      include partials/nav
+      .container
+        h1.feature-title
+          | Robust Recurring Tasks
+    section.feature-content
+      .container
+        .feature-image
+          img(src='/images/features/03feature.png')
+        .feature-info
+          p.feature-text
+            | Matterlist implements a unique approach to recurring tasks - it separates definitions of recurring tasks from their recurrences.
+          p.feature-text
+            | The vast majority of existing todo list apps implement recurring tasks as an option within regular tasks. By contrast, in Matterlist you define recurring tasks in a separate list.
+          p.feature-text
+            | This separation offers a key benefit: it allows you to treat recurrences of recurring tasks as normal, regular tasks. You can safely delete, rename, edit or postpone them without the fear of messing up all their future recurrences. Additionally, it makes it possible to show the recurrences on the timeline, so you can edit them even in the future!
+          p.feature-text
+            | No more walking on eggshells around recurring tasks!
+          a.feature-link(href='/features.html') See all features
+
+    include partials/footer

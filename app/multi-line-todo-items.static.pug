@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Matterlist | Multi-Line Todo Items
+    include partials/head-shared
+
+  body.feature-page
+    header.feature-head
+      include partials/nav
+      .container
+        h1.feature-title
+          | Multi-Line Todo Items
+    section.feature-content
+      .container
+        .feature-image
+          img(src='/images/features/07feature.png')
+        .feature-info
+          p.feature-text
+            | The ability to word your tasks properly is essential for your productivity. Despite that, many existing todo apps, including Wunderlist, insist on single-line todo items that are cropped when their text reaches the edge of the screen, which pressures users to shorten their todos.
+          p.feature-text
+            | There’s another unpleasant side-effect to single-line todos: they put the pressure on app interface designers to reduce font sizes and make user interface elements (such as task checkboxes) more cramped in order to free up space for the task text, which makes them hard to hit with a finger tap. All this makes such apps unfriendly to people with less-than-perfect eyesight and less-than-piano fingers.
+          p.feature-text
+            | Matterlist’s multi-line todo items solve both these problems. It allows us to use a comfortably, easy-to-scan font and properly spaced UI elements which are easy to hit with a finger
+          a.feature-link(href='/features.html') See all features
+
+    include partials/footer

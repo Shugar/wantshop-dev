@@ -1,0 +1,26 @@
+.core-idea {
+  background: $main-brand-color;
+}
+
+.core-idea__title {
+  color: #FFFFFF;
+}
+
+.core-idea__description {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: $main-font-size;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .core-idea__description {
+    margin-top: 20px;
+    font-size: $main-font-size;
+    line-height: $main-line-height;
+  }
+}

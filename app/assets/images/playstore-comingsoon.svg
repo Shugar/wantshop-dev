@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="177px" height="40px" viewBox="0 0 177 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Playstore СS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M26.2085628,24.4719507 L6.16818907,35.7189084 C4.97279333,36.3897823 3.55853871,36.3051404 2.47634759,35.6198213 L19.7440833,17.8681542 L26.2085628,24.4719507 L26.2085628,24.4719507 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ml-home-D" transform="translate(-444.000000, -5081.000000)">
+            <g id="download" transform="translate(0.000000, 4113.000000)">
+                <g id="buttons" transform="translate(430.000000, 958.000000)">
+                    <g id="Playstore-СS">
+                        <g id="logo_play" transform="translate(13.615195, 11.599674)">
+                            <path d="M20.3780041,3.5819304 L34.7812265,29.2462894 L34.7812265,29.2462894 C35.754513,30.9805386 35.137631,33.1754299 33.4033819,34.1487165 C32.8651441,34.4507836 32.2582976,34.609431 31.6410906,34.609431 L2.83506412,34.609431 L2.83506412,34.609431 C0.846369376,34.609431 -0.765786249,32.9972754 -0.765786249,31.0085806 C-0.765786249,30.3913888 -0.607146586,29.7845567 -0.30509355,29.2463283 L14.0977106,3.58196932 L14.0977106,3.58196932 C15.0709756,1.84770813 17.2658593,1.23079888 19.0001205,2.20406396 C19.5773206,2.52798784 20.054073,3.0047344 20.3780041,3.5819304 Z" id="yellow" fill="#C4C4C4" transform="translate(17.238398, 18.176080) rotate(-270.000000) translate(-17.238398, -18.176080) "></path>
+                            <path d="M2.53517939,35.6562886 C2.02232463,35.345187 1.58026545,34.9014612 1.26576202,34.3410638 C0.96369491,33.802826 0.805047477,33.1959795 0.805047477,32.5787725 L0.805047477,29.995013 L0.976838181,2.67063108 C1.25581928,1.80193728 1.85574311,1.07705891 2.63701397,0.63559167 L19.7432298,17.8669764 L2.53517939,35.6562886 L2.53517939,35.6562886 Z" id="Mask" fill="#707070"></path>
+                            <path d="M2.63787942,0.635102792 C3.16012832,0.340189725 3.76335949,0.171895649 4.40589785,0.171895649 C5.02308971,0.171895649 5.6299218,0.330535312 6.16815015,0.632588348 L26.0384629,11.7837814 L19.7410054,17.8724989 L2.63787942,0.635102792 L2.63787942,0.635102792 Z" id="green" fill="#A2A2A2"></path>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="red" fill="#8E8E8E" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="COMING-SOON" font-family="OpenSans-Bold, Open Sans" font-size="13" font-weight="bold" fill="#FF9500">
+                            <tspan x="57" y="49">COMING SOON</tspan>
+                        </text>
+                        <text id="Android-App" font-family="OpenSans, Open Sans" font-size="24" font-weight="normal" letter-spacing="-0.5" fill="#323C46">
+                            <tspan x="57" y="29">Android Ap</tspan>
+                            <tspan x="177.34375" y="29">p</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Matterlist | First Class Subtasks
+    include partials/head-shared
+
+  body.feature-page
+    header.feature-head
+      include partials/nav
+      .container
+        h1.feature-title
+          | First-Class Subtasks
+    section.feature-content
+      .container
+        .feature-image
+          img(src='/images/features/02feature.png')
+        .feature-info
+          p.feature-text
+            | Subtasks in Matterlist are proper tasks with priorities, due dates, contexts, notes and even with their own subtasks: Matterlist allows unlimited depth of subtask hierarchies.
+          p.feature-text
+            | You can assemble, rearrange and dismantle subtask hierarchies using the regular drag-and-drop. Tap-and-hold on a task, then drag it into its desired place in the existing hierarchy, or hover it over another task to attach as a subtask.
+          p.feature-text
+            | Subtask hierarchies can be collapsed or expanded at any time, allowing you to quickly hide the distracting details to get a bird’s-eye overview of your todo list.
+          a.feature-link(href='/features.html') See all features
+
+    include partials/footer

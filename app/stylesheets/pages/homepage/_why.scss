@@ -1,0 +1,44 @@
+.why {
+
+}
+
+.why-founder {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.why-founder__photo {
+  flex: 0 0 110px;
+  height: 110px;
+  border-radius: 100%;
+  margin-right: 30px;
+
+  background: url('../images/avatar@2x.png') no-repeat center / contain;
+}
+
+.why-founder__text {
+  margin-top: 0;
+  font-size: 17px;
+  color: #323C46;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.why-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .why-founder__photo {
+    height: 80px;
+    flex: 0 0 80px;
+    margin-right: 20px;
+  }
+
+  .why-founder__text {
+    font-size: $main-font-size;
+    line-height: $main-line-height;
+  }
+}

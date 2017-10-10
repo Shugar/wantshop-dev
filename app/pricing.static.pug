@@ -1,0 +1,92 @@
+doctype html
+html
+  head
+    title Matterlist | Pricing
+    include partials/head-shared
+
+  body.pricing-page
+    header.pricing-head
+      include partials/nav
+
+      .container
+        .pricing-title
+          | Plans and Pricing
+    .pricing-content
+      .container
+        table.pricing-table
+          tr.pricing-tr.pricing-tr-header
+            td.pricing-td Plan
+            td.pricing-td.pricing-td-free Free
+            td.pricing-td.pricing-td-pro Pro
+          tr.pricing-tr
+            td.pricing-td Infinite timeline
+            td.pricing-td
+              .pricing-check
+            td.pricing-td
+              .pricing-check
+          tr.pricing-tr
+            td.pricing-td First-class subtasks
+            td.pricing-td
+              .pricing-check
+            td.pricing-td
+              .pricing-check
+          tr.pricing-tr
+            td.pricing-td Multi-line todos
+            td.pricing-td
+              .pricing-check
+            td.pricing-td
+              .pricing-check
+          tr.pricing-tr
+            td.pricing-td Instant postpone
+            td.pricing-td
+              .pricing-check
+            td.pricing-td
+              .pricing-check
+          tr.pricing-tr
+            td.pricing-td Cloud sync
+            td.pricing-td
+              .pricing-check
+            td.pricing-td
+              .pricing-check
+          tr.pricing-tr
+            td.pricing-td Completed tasks
+            td.pricing-td
+              | 150 <span>/ month</span>
+            td.pricing-td Unlimited
+          tr.pricing-tr
+            td.pricing-td Recurring tasks
+            td.pricing-td 10
+            td.pricing-td Unlimited
+          tr.pricing-tr
+            td.pricing-td Contexts
+            td.pricing-td 5
+            td.pricing-td Unlimited
+          tr.pricing-tr.pricing-tr-footer
+            td.pricing-td Monthly cost
+            td.pricing-td.pricing-td-free $0
+            td.pricing-td.pricing-td-pro
+              | $5 <span>/ month</span>
+        .free
+          h2.title.free-title Free Plan Explained
+          ul.free-ul
+            li.free-li
+              span 150 completed tasks per month
+              |  means that you cannot complete tasks after you reach the limit. You
+              |               will be able to create new tasks, edit them, delete them, postpone them, but not complete them.
+            li.free-li
+              span 10 recurring tasks
+              |  means that you cannot define more than 10 recurring tasks, but you can complete
+              |               any number of their recurrences (completing them counts towards the limit on completed tasks).
+            li.free-li
+              span 5 contexts
+              |  means that you can’t define more than 5 contexts, but you can use any number of them
+              |               in any number of your tasks.
+        .will
+          h2.title.will-title Will I lose any data if I downgrade from Pro to Free?
+          p.subtitle.will-subtitle
+            | No. After the downgrade from Pro to Free, all the data you entered will be fully retained. All Contexts and Recurring
+            | Tasks you created while being on the Pro plan will remain in your account and will continue working as before
+            | even if their number exceeds the limits -- you just won’t be able to add more Contexts or Recurring Tasks.
+
+    include partials/try
+    include partials/footer

@@ -1,0 +1,24 @@
+.free {
+  margin-top: 60px;
+}
+
+.free-title {
+  text-align: left;
+}
+
+.free-ul {
+  margin-top: 20px;
+}
+
+.free-li {
+  margin-bottom: 20px;
+  font-size: $main-font-size;
+  color: #323C46;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+}
+
+.free-li span {
+  font-weight: 700;
+  font-style: italic;
+}

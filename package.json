@@ -1,0 +1,38 @@
+{
+  "name": "static-brunch",
+  "description": "Static page generator",
+  "author": "Shugar",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "brunch watch --server",
+    "prod": "brunch build --production",
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "sweetalert2": "^6.10.1",
+    "swiper": "^3.4.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^7.1.5",
+    "babel-brunch": "~6.1.1",
+    "brunch": "^2.10.10",
+    "brunch-static": "^1.2.1",
+    "clean-css-brunch": "^2.10.0",
+    "css-brunch": "^2.10.0",
+    "html-brunch-static": "^1.3.3",
+    "javascript-brunch": "^2.10.0",
+    "postcss-brunch": "^2.1.0",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "postcss-flexibility": "^2.0.0",
+    "pug-brunch-static": "^2.0.1",
+    "sass-brunch": "^2.10.4",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
